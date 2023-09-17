@@ -54,6 +54,20 @@ hr {
   text-align: left;
   line-height: 2;
 }
+.profile_1{
+  float: left;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+  margin-right: 30px;
+}
+.profile_2{
+  float: right;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+  margin-right: 30px;
+}
 .img {
   float: left;
   margin-right: 30px;
