@@ -27,11 +27,17 @@ h3 {
   color: #2e6e65;
   font-family: "Space Mono", monospace;
 }
-p {
-  font-size: 1.5rem;
+h4 {
+  font-size: 1.7rem;
   color: #041562;
   font-weight: 550;
   margin: 0;
+}
+p {
+  font-size: 1.2rem;
+  color: #041562;
+  font-weight: 550;
+  margin: 0 0 50px;
 }
 hr {
   border: 0;
@@ -67,10 +73,14 @@ hr {
 }
 .profile_flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   margin: 80px;
   line-height: 1.5;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 .profile_1 {
   flex: 25%;
@@ -151,7 +161,7 @@ hr {
     margin: 60px 10px;
     line-height: 1.5;
   }
-  .click{
+  .click {
     width: 25px;
     height: 25px;
   }
@@ -174,7 +184,7 @@ hr {
     width: 35px;
     height: 35px;
   }
-  .click{
+  .click {
     width: 20px;
     height: 20px;
   }
