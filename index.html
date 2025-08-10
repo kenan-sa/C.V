@@ -3,242 +3,329 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link
       rel="shortcut icon"
       href="photos/curriculum.png"
       type="image/x-icon"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Kenan Sabagh</title>
+
+    <title>Kenan Sabag - CV</title>
   </head>
-  <body>
-    <div class="row">
-      <div class="top">
-        <h1>I'm Kenan</h1>
-        <h3>A Software Practical Engineer</h3>
+
+  <body class="bg-gray-900 text-gray-200">
+    <!-- Header -->
+    <header class="bg-gray-800 shadow-lg">
+      <div
+        class="container mx-auto px-4 py-6 flex flex-col sm:flex-row sm:items-center sm:justify-between"
+      >
+        <h1 class="text-3xl font-bold text-white">Kenan Sabagh</h1>
+        <p class="text-gray-400">Frontend Developer</p>
       </div>
-      <div class="mid">
-        <div class="profile">
-          <img src="photos/contact.png" alt="contact-img" class="img" />
-          <h2>Contact</h2>
-          <p>
-            Phone :
-            <a class="footer-link" href="tel:050-296-6077"
-              >050-296-6077
-              <img src="photos/click.png" alt="click-img" class="click"
-            /></a>
-            <br />
-            E-mail :
-            <a class="footer-link" href="mailto:sabag.kenan@gmail.com"
-              >sabag.kenan@gmail.com
-              <img src="photos/click.png" alt="click-img" class="click"
-            /></a>
-            <br />
-            LinkedIn :
-            <a
-              class="footer-link"
-              href="https://www.linkedin.com/in/kenan-sabag-26251b273"
-              >LinkedIn
-              <img src="photos/click.png" alt="click-img" class="click"
-            /></a>
-            <br />
-            Github :
-            <a class="footer-link" href=" https://github.com/kenan-sa"
-              >Github <img src="photos/click.png" alt="click-img" class="click"
-            /></a>
-          </p>
-        </div>
-        <hr />
-        <div class="profile">
-          <img src="photos/profile.png" alt="profile-img" class="img" />
-          <h2>About Me</h2>
-          <p>
-            I am a practical software engineer with 2 years of programming experience acquired
-            through college studies.
-            I am passionate about learning and expanding my programming language skills.
-            Creative problem solver with full of patience to solve the biggest problems, outside of
-            the box thinker.
-          </p>
-        </div>
-        <hr />
-        <div class="profile">
-          <img src="photos/backend.png" alt="backend-img" class="img" />
-          <h2>Software</h2>
-          <p>
-            JavaScript, Java,<br />
-            Node.Js, Python,C,<br />
-            C# , HTML, CSS,<br />
-            JQUERY, Android, <br />
-            React, PostgreSQL , <br />
-            MongoDB, SQL, NoSQL,<br />
-            Ejs, Hashing ,Bootstrap<br />
-          </p>
-          <h4>_Professional Courses_:</h4>
-          <p>● The Complete 2024 Web Development Bootcamp by Dr.Angela Yu.</p>
-        </div>
-        <hr />
-        <div class="profile">
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="container mx-auto px-4 py-10 flex flex-col items-center text-center"
+    >
+      <img
+        src="photos/profile.jpg"
+        alt="Profile Photo"
+        class="object-cover w-50 h-50 rounded-full border-4 border-purple-500 shadow-lg mb-6"
+      />
+
+      <h2 class="text-4xl font-bold mb-2">Frontend Developer</h2>
+
+      <p class="text-gray-400 max-w-xl">
+        Passionate about crafting modern, user-friendly web applications with
+        React, Angular, and Tailwind CSS and more.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="bg-gray-800 py-10">
+      <div class="container mx-auto px-4">
+        <div class="flex gap-3 items-center mb-6">
           <img
-            src="photos/online-learning.png"
-            alt="online-learning-img"
-            class="img"
+            src="photos/skill.png"
+            alt="Profile Photo"
+            class="w-20 h-20 shadow-lg"
           />
-          <h2>Education</h2>
-          <h4>Tel-Hai Technological College</h4>
-          <p>Oct 2021 – Mar 2024: Diploma of THE DEGREE OF PRACTICAL ENGINEER in the SOFTWARE ENGINEERING track with distinction .<br /></p>
-          <h4>Courses:</h4>
-          <p>
-            Data structures object-oriented programming java <br />
-            QA-C# <br />
-            Full Stuck client (Node.js /HTML / CSS / javascript/ React) <br />
-            Databases (SQL / Mongo DB, NoSQL) <br />
-            Linux-Python <br />
-            Arduino <br />
-            Advanced programming in C language <br />
-            Development in the Android environment <br />
+
+          <h3 class="text-2xl font-bold mb-6">Skills</h3>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >React</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >Angular</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >Ionic</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >Mantine</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >Shadcn</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >Next.js</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >LoopBack</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >Tailwind CSS</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >NestJS</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >MongoDB</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center">HTML</span>
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center">CSS</span>
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >TypeScript</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >Redux</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center">Zod</span>
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >Zustand</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center">REST</span>
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >MaterialUI</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center"
+            >Flutter</span
+          >
+          <span class="bg-gray-700 px-4 py-2 rounded-lg text-center">Dart</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="container mx-auto px-4 py-10">
+      <div class="flex gap-3 items-center mb-6">
+        <img
+          src="photos/experience.png"
+          alt="Profile Photo"
+          class="w-20 h-20 shadow-lg"
+        />
+
+        <h3 class="text-2xl font-bold mb-6">Experience</h3>
+      </div>
+
+      <div class="space-y-6">
+        <div class="bg-gray-800 p-5 rounded-lg shadow-md">
+          <h4 class="text-xl font-semibold">
+            Junior Frontend Developer Intern
+          </h4>
+          <p class="text-purple-400">RunnableWeb • Nov 2024 – Present</p>
+          <p class="text-gray-400 mt-2">
+            Working on a delivery web application that includes all businesses
+            and some brand apps. Using React, Angular, Ionic, TypeScript,
+            NestJS, NextJS, LoopBack, Tailwind CSS, and Flutter.
           </p>
+          <ul class="list-disc list-inside text-gray-400 mt-3 space-y-1">
+            <li>
+              Built reusable and maintainable components with TypeScript,
+              Tailwind CSS, Ionic, Mantine, Shadcn, and best practices.
+            </li>
+            <li>
+              Worked with NestJS and LoopBack for API integration on the
+              backend.
+            </li>
+            <li>
+              Ensured responsive design, performance optimization, and seamless
+              user experience.
+            </li>
+            <li>
+              <span class="underline font-bold underline-offset-4"
+                >Technology Stack:</span
+              >
+              React, Angular, TypeScript, Tailwind CSS 3&4, NestJS, Next.JS,
+              Ionic framework, Redux, Zod, Yup, Zustand, REST, ReactHookForm,
+              MaterialUI, Flutter, Dart.
+            </li>
+          </ul>
         </div>
-        <hr />
-        <div class="profile">
-          <img src="photos/skill.png" alt="skill-img" class="img" />
-          <h2>Skills</h2>
-          <p>
-            Self-Motivated ,Self-Learning ,<br />
-            Problem-Solving ,Attention to Detail ,<br />
-            Maintenance and Repair ,Teamwork .<br />
-          </p>
-        </div>
-        <hr />
-        <div class="profile" style="width: 80%">
-          <img src="photos/project.png" alt="project-img" class="img" />
-          <h2>Projects</h2>
-          <div class="profile_flex">
-            <div class="profile_1">
-              <a
-                class="footer-link"
-                href="https://github.com/kenan-sa/CalculatorApp/tree/master"
-                ><img
-                  src="photos/calculator.png"
-                  alt="calculator-img"
-                  class="img"
-                />
-                <h3>Calculator App → Android:</h3>
+      </div>
+    </section>
 
-                <p>
-                  End-of-semester project of a calculator application with
-                  history using a firewall database with 2 activities.
-                </p>
-              </a>
-            </div>
-            <div class="profile_2">
-              <a class="footer-link" href="https://github.com/kenan-sa/Selenium"
-                ><img
-                  src="photos/selenium.png"
-                  alt="selenium-img"
-                  class="img"
-                />
-                <h3>Selenium → Python and linux:</h3>
+    <!-- Projects -->
+    <section class="container mx-auto px-4 py-10">
+      <div class="flex gap-3 items-center mb-6">
+        <img
+          src="photos/project.png"
+          alt="Profile Photo"
+          class="w-20 h-20 shadow-lg"
+        />
 
-                <p>
-                  Web automation software that plays with a "Purchase Order
-                  Form" using Selenium according to Argparse calls from the
-                  terminal.
-                </p>
-              </a>
-            </div>
-            <div class="profile_1">
-              <a
-                class="footer-link"
-                href="https://github.com/kenan-sa/Splitting_And_Joining_Files"
-                ><img src="photos/python.png" alt="python-img" class="img" />
+        <h3 class="text-2xl font-bold mb-6">Projects</h3>
+      </div>
 
-                <h3>Splitting && Joining Files → Python and linux:</h3>
-
-                <p>
-                  A system for splitting and joining files by selecting the
-                  weight of each part using the Argparse library ,Includes a
-                  hash check for the source file. Each file will receive an
-                  extension 001,002... depending on the need for the amount of
-                  files.
-                </p>
-              </a>
-            </div>
-            <div class="profile_2">
-              <a
-                class="footer-link"
-                href="https://github.com/kenan-sa/WeatherApp"
-                ><img src="photos/weather.png" alt="weather-img" class="img" />
-
-                <h3>Weather App → full stack (ejs,nodeJs,js,css):</h3>
-
-                <p>
-                  A weather application that brings data via api request access
-                  to the OpenWeatherMap website through the Axios library and
-                  displays the data in an amazing design.
-                </p>
-              </a>
-            </div>
-            <div class="profile_1">
-              <a
-                class="footer-link"
-                href="https://github.com/kenan-sa/Final-Project-NFTs"
-                ><img src="photos/nft.png" alt="nft-img" class="img" />
-
-                <h3>NFT Marketplace → full stack (MERN STACK):</h3>
-
-                <p>
-                  A graduation project which is a website where you can buy and
-                  sell NFTs using a currency in my creation called KANMURU with
-                  many features such as: "socket.io, local storage, bcrypt,
-                  Multer" and more.
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div class="profile">
-          <img src="photos/certificate.png" alt="certificate-img" class="img" />
-          <h2>Certifications</h2>
-          <p>
-           Jan 2024: the Complete 2024 Web Development Bootcamp, Udemy.<br />
-            
-           Mar 2024: Diploma of THE DEGREE OF PRACTICAL ENGINEER in the SOFTWARE ENGINEERING track with distinction at Tel-Hai Technological College.<br />
-          </p>
-        </div>
-        <hr />
-        <div class="profile">
-          <img src="photos/languages.png" alt="languages-img" class="img" />
-          <h2>Languages</h2>
-          <p>
-            English → Good <br />
-            Hebrew → Very Good <br />
-            Arabic → Excellent <br />
+      <div class="space-y-6">
+        <div class="bg-gray-800 p-5 rounded-lg shadow-md">
+          <h4 class="text-xl font-semibold">
+            NFT Marketplace → Full Stack (MERN Stack)
+          </h4>
+          <p class="text-purple-400">Graduation Project</p>
+          <p class="text-gray-400 mt-2">
+            A website where users can buy and sell NFTs using a custom currency
+            called <strong>KANMURU</strong>. Features include
+            <code>socket.io</code>, local storage, <code>BCrypt</code>,
+            <code>Multer</code>, and more.
           </p>
         </div>
       </div>
-      <div class="bottom">
-        <a class="btn" href="mailto:sabag.kenan@gmail.com">CONTACT ME</a>
-        <p class="usr">© Kenan Sabagh ☻♥</p>
+    </section>
+
+    <!-- Education -->
+    <section class="container mx-auto px-4 py-10">
+      <div class="flex gap-3 items-center mb-6">
+        <img
+          src="photos/online-learning.png"
+          alt="Profile Photo"
+          class="w-20 h-20 shadow-lg"
+        />
+
+        <h3 class="text-2xl font-bold mb-6">Education</h3>
       </div>
-    </div>
+
+      <div class="bg-gray-800 p-5 rounded-lg shadow-md space-y-4">
+        <div>
+          <h4 class="text-xl font-semibold">
+            Diploma of Practical Engineer in Software Engineering (With
+            Distinction)
+          </h4>
+          <p class="text-purple-400">
+            Tel-Hai Technological College • Oct 2021 – Mar 2024
+          </p>
+          <p class="text-gray-400 mt-2">
+            <span class="underline underline-offset-4 font-bold">Courses:</span>
+            Data Structures, Object-Oriented Programming (Java), QA (C#), Full
+            Stack Client, Databases (SQL / MongoDB, NoSQL), Linux-Python,
+            Arduino, Android Development.
+          </p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold">Professional Courses</h4>
+          <p class="text-gray-400">
+            The Complete 2024 Web Development Bootcamp by Dr. Angela Yu
+            <span class="text-purple-300">(Udemy)</span>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="container mx-auto px-4 py-10">
+      <div class="flex gap-3 items-center mb-6">
+        <img
+          src="photos/certificate.png"
+          alt="Profile Photo"
+          class="w-20 h-20 shadow-lg"
+        />
+
+        <h3 class="text-2xl font-bold mb-6">Certifications</h3>
+      </div>
+
+      <div class="bg-gray-800 p-5 rounded-lg shadow-md">
+        <p class="text-gray-400 pb-3">
+          Jan 2024 — The Complete 2024 Web Development Bootcamp by Dr. Angela Yu
+          <span class="text-purple-300">(Udemy)</span>.
+        </p>
+
+        <a
+          href="certificate/udemy-certificate.pdf"
+          download
+          class="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors duration-200"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="w-5 h-5"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"
+            />
+          </svg>
+          Download PDF
+        </a>
+      </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="container mx-auto px-4 py-10">
+      <div class="flex gap-3 items-center mb-6">
+        <img
+          src="photos/languages.png"
+          alt="Profile Photo"
+          class="w-20 h-20 shadow-lg"
+        />
+
+        <h3 class="text-2xl font-bold mb-6">Languages</h3>
+      </div>
+
+      <div class="bg-gray-800 p-5 rounded-lg shadow-md">
+        <p class="text-gray-400">
+          English — Good | Hebrew — Very Good | Arabic — Native
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-gray-800 py-10">
+      <div class="container mx-auto px-4 text-center">
+        <h3 class="text-2xl font-bold mb-4">Contact</h3>
+        <p class="text-gray-400 mb-6">Let’s connect and work together.</p>
+        <div class="flex items-center justify-center gap-4">
+          <a
+            href="tel:+972502966077"
+            class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg shadow-md transition"
+          >
+            Call Me
+          </a>
+
+          <a
+            href="mailto:sabag.kenan@gmail.com"
+            class="bg-red-700 hover:bg-red-800 text-white px-6 py-3 rounded-lg shadow-md transition"
+          >
+            Email Me
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/kenan-sabag-26251b273"
+            class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-md transition"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href=" https://github.com/kenan-sa"
+            class="bg-slate-700 hover:bg-slate-900 text-white px-6 py-3 rounded-lg shadow-md transition"
+          >
+            Github
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-4 text-center text-gray-500 text-sm">
+      © 2025 Kenan Sabag. All rights reserved.
+    </footer>
   </body>
 </html>
