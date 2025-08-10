@@ -31,7 +31,7 @@
       <img
         src="photos/profile.jpg"
         alt="Profile Photo"
-        class="object-cover w-50 h-50 rounded-full border-4 border-purple-500 shadow-lg mb-6"
+        class="object-cover w-48 h-48 rounded-full border-4 border-purple-500 shadow-lg mb-6"
       />
 
       <h2 class="text-4xl font-bold mb-2">Frontend Developer</h2>
@@ -45,14 +45,14 @@
     <!-- Skills -->
     <section class="bg-gray-800 py-10">
       <div class="container mx-auto px-4">
-        <div class="flex gap-3 items-center mb-6">
+        <div class="flex items-center gap-3 mb-6">
           <img
             src="photos/skill.png"
-            alt="Profile Photo"
-            class="w-20 h-20 shadow-lg"
+            alt="Skills Icon"
+            class="w-20 h-20 shadow-lg flex-shrink-0"
           />
 
-          <h3 class="text-2xl font-bold mb-6">Skills</h3>
+          <h3 class="text-2xl font-bold">Skills</h3>
         </div>
 
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
@@ -112,94 +112,110 @@
 
     <!-- Experience -->
     <section class="container mx-auto px-4 py-10">
-      <div class="flex gap-3 items-center mb-6">
+      <div class="flex items-center gap-3 mb-6">
         <img
           src="photos/experience.png"
-          alt="Profile Photo"
-          class="w-20 h-20 shadow-lg"
+          alt="Experience Icon"
+          class="w-20 h-20 shadow-lg flex-shrink-0"
         />
 
-        <h3 class="text-2xl font-bold mb-6">Experience</h3>
+        <h3 class="text-2xl font-bold">Experience</h3>
       </div>
 
       <div class="space-y-6">
-        <div class="bg-gray-800 p-5 rounded-lg shadow-md">
-          <h4 class="text-xl font-semibold">
-            Junior Frontend Developer Intern
-          </h4>
-          <p class="text-purple-400">RunnableWeb • Nov 2024 – Present</p>
-          <p class="text-gray-400 mt-2">
-            Working on a delivery web application that includes all businesses
-            and some brand apps. Using React, Angular, Ionic, TypeScript,
-            NestJS, NextJS, LoopBack, Tailwind CSS, and Flutter.
-          </p>
-          <ul class="list-disc list-inside text-gray-400 mt-3 space-y-1">
-            <li>
-              Built reusable and maintainable components with TypeScript,
-              Tailwind CSS, Ionic, Mantine, Shadcn, and best practices.
-            </li>
-            <li>
-              Worked with NestJS and LoopBack for API integration on the
-              backend.
-            </li>
-            <li>
-              Ensured responsive design, performance optimization, and seamless
-              user experience.
-            </li>
-            <li>
-              <span class="underline font-bold underline-offset-4"
-                >Technology Stack:</span
-              >
-              React, Angular, TypeScript, Tailwind CSS 3&4, NestJS, Next.JS,
-              Ionic framework, Redux, Zod, Yup, Zustand, REST, ReactHookForm,
-              MaterialUI, Flutter, Dart.
-            </li>
-          </ul>
+        <div
+          class="bg-gray-800 p-5 rounded-lg shadow-md flex flex-col md:flex-row md:gap-8"
+        >
+          <div class="flex-shrink-0 mb-4 md:mb-0">
+            <img
+              src="photos/runnableweb_logo.jpg"
+              alt="Experience Icon"
+              class="w-20 h-20 shadow-lg rounded-lg"
+            />
+          </div>
+
+          <div>
+            <h4 class="text-xl font-semibold">
+              Junior Frontend Developer Intern
+            </h4>
+            <p class="text-purple-400">RunnableWeb • Nov 2024 – Present</p>
+            <p class="text-gray-400 mt-2">
+              Working on a delivery web application that includes all businesses
+              and some brand apps. Using React, Angular, Ionic, TypeScript,
+              NestJS, NextJS, LoopBack, Tailwind CSS, and Flutter.
+            </p>
+            <ul class="list-disc list-inside text-gray-400 mt-3 space-y-1">
+              <li>
+                Built reusable and maintainable components with TypeScript,
+                Tailwind CSS, Ionic, Mantine, Shadcn, and best practices.
+              </li>
+              <li>
+                Worked with NestJS and LoopBack for API integration on the
+                backend.
+              </li>
+              <li>
+                Ensured responsive design, performance optimization, and
+                seamless user experience.
+              </li>
+              <li>
+                <span class="underline font-bold underline-offset-4"
+                  >Technology Stack:</span
+                >
+                React, Angular, TypeScript, Tailwind CSS 3&4, NestJS, Next.JS,
+                Ionic framework, Redux, Zod, Yup, Zustand, REST, ReactHookForm,
+                MaterialUI, Flutter, Dart.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Projects -->
     <section class="container mx-auto px-4 py-10">
-      <div class="flex gap-3 items-center mb-6">
+      <div class="flex items-center gap-3 mb-6">
         <img
           src="photos/project.png"
-          alt="Profile Photo"
-          class="w-20 h-20 shadow-lg"
+          alt="Projects Icon"
+          class="w-20 h-20 shadow-lg flex-shrink-0"
         />
 
-        <h3 class="text-2xl font-bold mb-6">Projects</h3>
+        <h3 class="text-2xl font-bold">Projects</h3>
       </div>
 
       <div class="space-y-6">
-        <div class="bg-gray-800 p-5 rounded-lg shadow-md">
-          <h4 class="text-xl font-semibold">
-            NFT Marketplace → Full Stack (MERN Stack)
-          </h4>
-          <p class="text-purple-400">Graduation Project</p>
-          <p class="text-gray-400 mt-2">
-            A website where users can buy and sell NFTs using a custom currency
-            called <strong>KANMURU</strong>. Features include
-            <code>socket.io</code>, local storage, <code>BCrypt</code>,
-            <code>Multer</code>, and more.
-          </p>
+        <div
+          class="bg-gray-800 p-5 rounded-lg shadow-md flex flex-col md:flex-row md:gap-8"
+        >
+          <div>
+            <h4 class="text-xl font-semibold">
+              NFT Marketplace → Full Stack (MERN Stack)
+            </h4>
+            <p class="text-purple-400">Graduation Project</p>
+            <p class="text-gray-400 mt-2">
+              A website where users can buy and sell NFTs using a custom
+              currency called <strong>KANMURU</strong>. Features include
+              <code>socket.io</code>, local storage, <code>BCrypt</code>,
+              <code>Multer</code>, and more.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Education -->
     <section class="container mx-auto px-4 py-10">
-      <div class="flex gap-3 items-center mb-6">
+      <div class="flex items-center gap-3 mb-6">
         <img
           src="photos/online-learning.png"
-          alt="Profile Photo"
-          class="w-20 h-20 shadow-lg"
+          alt="Education Icon"
+          class="w-20 h-20 shadow-lg flex-shrink-0"
         />
 
-        <h3 class="text-2xl font-bold mb-6">Education</h3>
+        <h3 class="text-2xl font-bold">Education</h3>
       </div>
 
-      <div class="bg-gray-800 p-5 rounded-lg shadow-md space-y-4">
+      <div class="bg-gray-800 p-5 rounded-lg shadow-md space-y-6">
         <div>
           <h4 class="text-xl font-semibold">
             Diploma of Practical Engineer in Software Engineering (With
@@ -227,14 +243,14 @@
 
     <!-- Certifications -->
     <section class="container mx-auto px-4 py-10">
-      <div class="flex gap-3 items-center mb-6">
+      <div class="flex items-center gap-3 mb-6">
         <img
           src="photos/certificate.png"
-          alt="Profile Photo"
-          class="w-20 h-20 shadow-lg"
+          alt="Certifications Icon"
+          class="w-20 h-20 shadow-lg flex-shrink-0"
         />
 
-        <h3 class="text-2xl font-bold mb-6">Certifications</h3>
+        <h3 class="text-2xl font-bold">Certifications</h3>
       </div>
 
       <div class="bg-gray-800 p-5 rounded-lg shadow-md">
@@ -269,14 +285,14 @@
 
     <!-- Languages -->
     <section class="container mx-auto px-4 py-10">
-      <div class="flex gap-3 items-center mb-6">
+      <div class="flex items-center gap-3 mb-6">
         <img
           src="photos/languages.png"
-          alt="Profile Photo"
-          class="w-20 h-20 shadow-lg"
+          alt="Languages Icon"
+          class="w-20 h-20 shadow-lg flex-shrink-0"
         />
 
-        <h3 class="text-2xl font-bold mb-6">Languages</h3>
+        <h3 class="text-2xl font-bold">Languages</h3>
       </div>
 
       <div class="bg-gray-800 p-5 rounded-lg shadow-md">
